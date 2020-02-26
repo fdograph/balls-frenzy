@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Hosted on Github Pages
 
-- [Preview](http://fdograph.github.io/cubeception)
+- [Preview](http://fdograph.github.io/balls-frenzy)
