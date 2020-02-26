@@ -1,0 +1,85 @@
+{
+  "name": "@fdograph/balls-frenzy",
+  "homepage": "http://fdograph.github.io/balls-frenzy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdograph/balls-frenzy.git"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.0.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.4.3",
+    "gh-pages": "^2.2.0",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.0.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "prettier"
+    ],
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 80,
+          "trailingComma": "es5",
+          "semi": true,
+          "jsxSingleQuote": false,
+          "singleQuote": true,
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      ],
+      "camelcase": [
+        "error",
+        {
+          "properties": "always",
+          "ignoreDestructuring": true,
+          "ignoreImports": true
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.20",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1"
+  }
+}
