@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import Lines from 'Common/Components/Lines';
+import Balls from 'Common/Components/Balls';
 
 const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
@@ -31,7 +31,7 @@ const App: React.FC<{}> = () => {
     <Fragment>
       <GlobalStyles />
       <Scene>
-        <Lines />
+        <Balls />
       </Scene>
     </Fragment>
   );
