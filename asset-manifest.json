@@ -1,19 +1,10 @@
 {
   "files": {
-    "main.js": "/balls-frenzy/static/js/main.ccf66e52.chunk.js",
-    "main.js.map": "/balls-frenzy/static/js/main.ccf66e52.chunk.js.map",
-    "runtime-main.js": "/balls-frenzy/static/js/runtime-main.2605f2a6.js",
-    "runtime-main.js.map": "/balls-frenzy/static/js/runtime-main.2605f2a6.js.map",
-    "static/js/2.376d8140.chunk.js": "/balls-frenzy/static/js/2.376d8140.chunk.js",
-    "static/js/2.376d8140.chunk.js.map": "/balls-frenzy/static/js/2.376d8140.chunk.js.map",
+    "main.js": "/balls-frenzy/static/js/main.1268a358.js",
     "index.html": "/balls-frenzy/index.html",
-    "precache-manifest.8389f167e1fb94dade33b39d451d828b.js": "/balls-frenzy/precache-manifest.8389f167e1fb94dade33b39d451d828b.js",
-    "service-worker.js": "/balls-frenzy/service-worker.js",
-    "static/js/2.376d8140.chunk.js.LICENSE.txt": "/balls-frenzy/static/js/2.376d8140.chunk.js.LICENSE.txt"
+    "main.1268a358.js.map": "/balls-frenzy/static/js/main.1268a358.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2605f2a6.js",
-    "static/js/2.376d8140.chunk.js",
-    "static/js/main.ccf66e52.chunk.js"
+    "static/js/main.1268a358.js"
   ]
 }
